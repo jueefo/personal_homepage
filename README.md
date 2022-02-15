@@ -19,3 +19,6 @@ To apply the scripts to the actual database run:
 ```
 python manage.py migrate
 ```
+
+## Install packages with pip
+pip install -r requirements.txt
