@@ -27,3 +27,19 @@ To install packages with pip:
 ```
 pip install -r requirements.txt
 ```
+
+## Create admin to work with the database
+
+To create admin:
+
+```
+python manage.py createsuperuser
+```
+
+## Collect static files
+
+To collect the static files:
+
+```
+python manage.py collectstatic
+```
