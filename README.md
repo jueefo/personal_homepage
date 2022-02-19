@@ -43,3 +43,7 @@ To collect the static files:
 ```
 python manage.py collectstatic
 ```
+
+## About
+
+The project is based in the LinkedIn course 'Building a Personal Portfolio with Django' https://www.linkedin.com/learning/building-a-personal-portfolio-with-django
