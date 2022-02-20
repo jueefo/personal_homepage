@@ -44,6 +44,17 @@ To collect the static files:
 python manage.py collectstatic
 ```
 
+## SECRET_KEY
+
+Add .env file and add line with the secret key
+SECRET_KEY = 'secret key ...'
+
+Create and copy the secret key with REPL:
+```
+from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())
+```
+
+
 ## About
 
 The project is based in the LinkedIn course 'Building a Personal Portfolio with Django' https://www.linkedin.com/learning/building-a-personal-portfolio-with-django
